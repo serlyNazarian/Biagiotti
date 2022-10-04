@@ -1,0 +1,36 @@
+.DarkHeaderContainer {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+div > a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+div {
+  font-style: italic;
+}
+
+.EmailInfo {
+  margin: 40px;
+}
+
+.SpecialOffer {
+  margin-right: 60px;
+}
+
+.Login {
+  margin: 40px;
+}
+
+.user-icon {
+  margin-left: 10px;
+}

@@ -1,0 +1,7 @@
+.lightHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  /* justify-content: center; */
+}
