@@ -1,5 +1,8 @@
 import React from "react";
 import "./HeaderNav.css";
+import BlogItem from "./ListItems/BlogItem";
+// import HomeItem from "./ListItems/HomeItem";
+// import PagesItem from "./ListItems/PagesItem";
 
 const HeaderNav = () => {
   const HeaderImage =
@@ -7,49 +10,9 @@ const HeaderNav = () => {
   return (
     <nav className="Nav">
       <ul className="Ul">
-        <li className="special-li">
-          <div className="right-menu">
-            <a className="effect-3" href="/">
-              HOME
-            </a>
-            <div className="dropdown-menu">
-              <a href="/">Main Home</a>
-              <a href="/">Grid Home</a>
-              <a href="/">Cosmetics Home</a>
-              <a href="/">Product Gallery</a>
-              <a href="/">Fullscreen Slider</a>
-              <a href="/">Skincare Home</a>
-              <a href="/">Landing</a>
-            </div>
-          </div>
-        </li>
-        <li className="special-li">
-          <div className="right-menu">
-            <a className="effect-3" href="/">
-              PAGES
-            </a>
-            <div className="dropdown-menu">
-              <a href="/">About Us</a>
-              <a href="/">Our Team</a>
-              <a href="/">FAQ Page</a>
-              <a href="/">Coming Soon</a>
-              <a href="/">Pricing Plans</a>
-            </div>
-          </div>
-        </li>
-        <li className="special-li">
-          <div className="right-menu">
-            <a className="effect-3" href="/">
-              BLOG
-            </a>
-            <div className="dropdown-menu">
-              <a href="/">Standard</a>
-              <a href="/">Centered</a>
-              <a href="/">No Sidebar</a>
-              <a href="/">Post Types</a>
-            </div>
-          </div>
-        </li>
+        {/* <HomeItem title="HOME" /> */}
+        {/* <PagesItem title="PAGES" /> */}
+        <BlogItem />
         <li className="special-li">
           <img src={HeaderImage} alt="alt header logo" height={50} />
         </li>
@@ -58,18 +21,101 @@ const HeaderNav = () => {
             <a className="effect-3" href="/">
               SHOP
             </a>
-            <div className="dropdown-menu">{/* <a href="/"></a> */}</div>
+            {/* <div className="large-dropdown-menu">
+              <div className="Product-type">
+                <a className="whitelink" href="/">
+                  <h5>Product Types</h5>
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+              </div>
+              <div className="Product-type">
+                <a className="whitelink" href="/">
+                  <h5>Shop Lists</h5>
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+              </div>
+              <div className="Product-type">
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+              </div>
+              <div className="Product-type">
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+                <a className="whitelink" href="/">
+                  test
+                </a>
+              </div>
+            </div> */}
           </div>
         </li>
         <li className="special-li">
-          <a className="effect-3" href="/">
-            PORTFOLIO
-          </a>
+          <div className="right-menu">
+            <a className="effect-3" href="/">
+              PORTFOLIO
+            </a>
+            <div className="dropdown-menu">
+              <a href="/">Gallery</a>
+              <a href="/">Standard</a>
+              <a href="/">Layout</a>
+              <a href="/">Singles</a>
+            </div>
+          </div>
         </li>
         <li className="special-li">
-          <a className="effect-3" href="/">
-            CONTACT
-          </a>
+          <div className="right-menu">
+            <a className="effect-3" href="/">
+              CONTACT
+            </a>
+            <div className="dropdown-menu">
+              <a href="/">Contact Us</a>
+              <a href="/">Get In Touch</a>
+            </div>
+          </div>
         </li>
       </ul>
     </nav>

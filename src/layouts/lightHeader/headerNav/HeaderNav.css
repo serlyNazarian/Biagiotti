@@ -1,9 +1,3 @@
-.Nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .Ul {
   display: flex;
   flex-direction: row;
@@ -13,13 +7,13 @@
 }
 
 .right-menu {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  display: inline-block;
   margin: 10px;
   height: 5vh;
 }
 
-.right-menu a {
+.right-menu > a {
   text-decoration: none;
   color: black;
   position: relative;
@@ -63,25 +57,19 @@
   transform: translateX(0);
 }
 
-.right-menu {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-menu {
-  display: none;
-  z-index: 1;
-  position: absolute;
-  background-color: black;
-  width: 250px;
-  margin-top: 30px;
-}
-
-.dropdown-menu a {
-  color: white;
-}
-
 .right-menu:hover .dropdown-menu {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu {
+  /* display: none; */
+  z-index: 1;
+  position: absolute;
+  background-color: black;
+  width: 200px;
+  margin-top: 20px;
+  height: fit-content;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./MainContent.css";
+import HomeCarousel from "./SlideShow/SlideShow";
 
 const MainContent = () => {
   //   const SlideShowImage =
@@ -8,12 +9,7 @@ const MainContent = () => {
     <main className="MainContent">
       {/* <img src={SlideShowImage} height={700} alt="slideshow" /> */}
       <div className="slide-show">
-        <h1 className="block-span">Original Style</h1>
-        {/* <span className="parag">
-          At vero eos et accusamus et iusto odio dignissmos ducimus qui
-          blanditiis praesentium voluptatum deleniti atque corrupti quos doloers
-          te quas
-        </span> */}
+        <HomeCarousel />
       </div>
     </main>
   );
