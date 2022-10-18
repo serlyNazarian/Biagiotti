@@ -9,7 +9,7 @@ const DarkHeader = () => {
         <a href="/">biagiottitheme@gmail.com</a>
       </div>
       <div className="SpecialOffer">
-        Free shipping on internation orders of $150+
+        Free shipping on international orders of $150+
       </div>
       <div className="Login">
         <a href="/">Log in</a>

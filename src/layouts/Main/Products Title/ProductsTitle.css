@@ -1,0 +1,14 @@
+.ProductsText {
+  color: #e5e5e5;
+  display: block;
+  margin: 0 0 0 10px;
+  font-size: 42px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.ProductsTitle {
+  text-transform: uppercase;
+  color: #000;
+}

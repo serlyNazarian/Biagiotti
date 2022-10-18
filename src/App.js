@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import MainContent from "./components/mainContentSlideShow/MainContent";
 import DarkHeader from "./layouts/darkHeader/DarkHeader";

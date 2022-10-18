@@ -9,13 +9,9 @@
   width: 100%;
 }
 
-div > a {
+.EmailInfo > a {
   color: white;
   text-decoration: none;
-  font-style: italic;
-}
-
-div {
   font-style: italic;
 }
 
@@ -25,10 +21,17 @@ div {
 
 .SpecialOffer {
   margin-right: 60px;
+  font-style: italic;
 }
 
 .Login {
   margin: 40px;
+}
+
+.Login a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .user-icon {

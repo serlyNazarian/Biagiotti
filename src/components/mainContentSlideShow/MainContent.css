@@ -1,16 +1,3 @@
 .slide-show {
-  /* background-image: url(https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-slider-img-3.jpg); */
-  height: 70vh;
-  width: 100vw;
-  color: black;
-  text-align: center;
-  display: flex;
-  /* justify-content: center; */
-  align-items: center;
-  /* justify-content: space-between; */
-  margin-top: 60px;
-}
-
-block-span {
-  display: inline-block;
+  height: 50% !important;
 }
