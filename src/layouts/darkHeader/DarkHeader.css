@@ -1,6 +1,6 @@
 .DarkHeaderContainer {
   background-color: #000000;
-  color: white;
+  color: #cecece;
   display: flex;
   flex-direction: row;
   height: 5vh;
@@ -10,7 +10,7 @@
 }
 
 .EmailInfo > a {
-  color: white;
+  color: #cecece;
   text-decoration: none;
   font-style: italic;
 }
@@ -29,7 +29,7 @@
 }
 
 .Login a {
-  color: white;
+  color: #cecece;
   text-decoration: none;
   font-style: italic;
 }

@@ -2,11 +2,11 @@ import React from "react";
 import "./ProductsTitle.css";
 
 const ProductsTitle = () => {
-  const productsTitle = [
-    { text: "perfect shades" },
-    { title: "FIND YOUR BEAUTY MATCH" },
-    { description: "AT VERO EOS ET ACCUSAMUS ET IUSTO" },
-  ];
+  // const productsTitle = [
+  //   { text: "perfect shades" },
+  //   { title: "FIND YOUR BEAUTY MATCH" },
+  //   { description: "AT VERO EOS ET ACCUSAMUS ET IUSTO" },
+  // ];
   //   productsTitle.map((title) => {
   //     return (
   //       <div className="ProductsTitle">

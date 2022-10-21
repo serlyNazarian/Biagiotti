@@ -8,28 +8,37 @@ const HeaderNav = () => {
     <nav className="Nav">
       <ul className="Ul">
         <li className="special-li">
+          <a className="effect-3" href="/">
+            Home
+          </a>
+        </li>
+        <li className="special-li">
+          <a className="effect-3" href="/">
+            Pages
+          </a>
+        </li>
+        <li className="special-li">
+          <a className="effect-3" href="/">
+            Blog
+          </a>
+        </li>
+        <li className="special-li">
           <img src={HeaderImage} alt="alt header logo" height={50} />
         </li>
         <li className="special-li">
-          <div className="right-menu">
-            <a className="effect-3" href="/">
-              SHOP
-            </a>
-          </div>
+          <a className="effect-3" href="/">
+            Shop
+          </a>
         </li>
         <li className="special-li">
-          <div className="right-menu">
-            <a className="effect-3" href="/">
-              PORTFOLIO
-            </a>
-          </div>
+          <a className="effect-3" href="/">
+            Portfolio
+          </a>
         </li>
         <li className="special-li">
-          <div className="right-menu">
-            <a className="effect-3" href="/">
-              CONTACT
-            </a>
-          </div>
+          <a className="effect-3" href="/">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

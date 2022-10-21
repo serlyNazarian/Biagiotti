@@ -4,72 +4,14 @@
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
+  width: 30vw;
 }
 
-.right-menu {
-  position: relative;
-  display: inline-block;
-  margin: 10px;
-  height: 5vh;
-}
-
-.right-menu > a {
+.special-li > a {
   text-decoration: none;
   color: black;
-  position: relative;
-}
-
-.right-menu > a::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  border-radius: 4px;
-  background-color: #18272f;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-  z-index: 1;
-}
-
-.right-menu > a:hover::before {
-  transform-origin: left;
-  transform: scaleX(1);
-  z-index: 1;
-}
-
-.effect-3 {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  overflow: hidden;
-}
-
-.effect-3:before {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  transform: translateX(-100%);
-}
-
-.effect-3:hover:before {
-  transform: translateX(0);
-}
-
-.right-menu:hover .dropdown-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.dropdown-menu {
-  /* display: none; */
-  z-index: 1;
-  position: absolute;
-  background-color: black;
-  width: 200px;
-  margin-top: 20px;
-  height: fit-content;
+  margin: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2em;
 }

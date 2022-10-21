@@ -19,6 +19,8 @@
   left: 200px;
   font-size: 70px;
   color: white;
+  cursor: default;
+  user-select: none;
 }
 
 .slider-text {
@@ -28,6 +30,8 @@
   color: white;
   font-style: italic;
   width: 550px;
+  cursor: default;
+  user-select: none;
 }
 
 .test-img {
