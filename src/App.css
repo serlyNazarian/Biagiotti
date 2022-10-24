@@ -3,3 +3,11 @@
   display: flex;
   flex-direction: column;
 }
+
+.TuesdayNight-font-face {
+  font-family: "TuesdayNight";
+}
+
+.User-Select-None {
+  user-select: none;
+}

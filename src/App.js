@@ -3,7 +3,10 @@ import "./App.css";
 import MainContent from "./components/mainContentSlideShow/MainContent";
 import DarkHeader from "./layouts/darkHeader/DarkHeader";
 import LightHeader from "./layouts/lightHeader/LightHeader";
+import About from "./layouts/Main/About/About";
+import Benefits from "./layouts/Main/Benefits Section/Benefits";
 import ClientsCarousel from "./layouts/Main/Clients Carousel/ClientsCarousel";
+import ProductTestimonials from "./layouts/Main/Product Testimonials/ProductTestimonials";
 import ProductsMain from "./layouts/Main/Products Carousel/ProductsMain";
 import ShowCase from "./layouts/Main/Showcase/ShowCase";
 
@@ -16,6 +19,9 @@ function App() {
       <ProductsMain />
       <ShowCase />
       <ClientsCarousel />
+      <ProductTestimonials />
+      <Benefits />
+      <About />
     </div>
   );
 }

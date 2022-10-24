@@ -6,9 +6,13 @@
   line-height: 27px;
   font-weight: 400;
   margin-top: 50px;
+  user-select: none;
 }
 
 .ProductsTitle {
-  text-transform: uppercase;
   color: #000;
+}
+
+.ProductsDescription {
+  text-transform: uppercase;
 }

@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@font-face {
+  font-family: "TuesdayNight";
+  src: local("TuesdayNight"),
+    url("./fonts/TuesdayNight-Regular.otf") format("opentype");
+}

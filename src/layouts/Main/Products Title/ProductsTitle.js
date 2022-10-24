@@ -18,7 +18,7 @@ const ProductsTitle = () => {
   //   });
   return (
     <div className="ProductsTitle">
-      <span className="ProductsText">perfect shades</span>
+      <p className="ProductsText TuesdayNight-font-face">perfect shades</p>
       <h2 className="ProductsTitle">FIND YOUR BEAUTY MATCH</h2>
       <h5 className="ProductsDescription">at vero eos et accusamus et iusto</h5>
     </div>

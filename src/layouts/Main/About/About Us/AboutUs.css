@@ -1,0 +1,68 @@
+.about-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-div {
+  background-image: url(https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-single-img-1.jpg);
+  width: 50%;
+  height: 75vh;
+  background-repeat: no-repeat;
+}
+
+.right-div {
+  width: 50%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin-left: 70px;
+}
+
+.About-Title {
+  font-size: 42px;
+  color: #d1d1d1;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: start !important;
+  margin-bottom: 10px;
+}
+
+.about-second-title {
+  margin-top: 10px;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: left;
+  font-weight: 400;
+}
+
+.first-description {
+  margin: 0 0 0 0;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.136em;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: left;
+  width: 55%;
+}
+
+.second-description {
+  margin-top: 19px;
+  text-align: left;
+  font-family: serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  color: #838383;
+  width: 60%;
+}

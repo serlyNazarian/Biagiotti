@@ -20,23 +20,23 @@ const ClientsCarousel = () => {
         },
         {
             id: 4,
-            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/m-h-client-h4.png",
+            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-client-h4.png",
         },
         {
             id: 5,
-            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/m-h-client-h5.png",
+            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-client-h5.png",
         },
         {
             id: 6,
-            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/m-h-client-h6.png",
+            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-client-h6.png",
         },
         {
             id: 7,
-            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/m-h-client-h7.png",
+            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-client-h7.png",
         },
         {
             id: 8,
-            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/07/m-h-client-h8.png"
+            img: "https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-client-h8.png"
         }
     ]
     const settings = {
@@ -44,21 +44,19 @@ const ClientsCarousel = () => {
         infinite: true,
         autoplay: true,
         speed: 500,
-        slidesToShow: 4,
+        slidesToShow: 7,
         slidesToScroll: 1,
     };
     return (
-        <div className='Clients-div'>
-            <Slider {...settings}>
-                {clients.map((client) => {
-                    return (
-                        <div className='clients-container' key={client.id}>
-                            <img src={client.img} alt="" />
-                        </div>
-                    )
-                })}
-            </Slider>
-        </div>
+        <Slider className='client-test' {...settings}>
+            {clients.map((client) => {
+                return (
+                    <div className='clients-container' key={client.id}>
+                        <img className='Clients-img' src={client.img} alt="" />
+                    </div>
+                )
+            })}
+        </Slider>
     );
 };
 

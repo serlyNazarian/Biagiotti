@@ -1,5 +1,15 @@
 .clients-container {
+  margin-left: 50px;
+}
+
+.client-test {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 35vh;
+}
+
+.Clients-img {
+  width: 180px;
+  height: 80px;
 }
