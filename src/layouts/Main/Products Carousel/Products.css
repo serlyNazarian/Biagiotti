@@ -63,3 +63,35 @@
   height: 405px;
   margin-left: 10px;
 }
+
+.Hover-div {
+  background: #fbf9fa;
+  position: absolute;
+  top: 0;
+  width: 14vw;
+  height: 405px;
+  margin-left: 10px;
+}
+
+.Hover-inner-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 270px;
+}
+
+.Hover-btn {
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border: 1px solid black;
+  outline: none;
+  margin: 5px;
+}
+
+.Hover-btn:hover {
+  background-color: black;
+  color: white;
+}

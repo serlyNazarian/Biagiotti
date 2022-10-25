@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductsTitle.css";
 
-const ProductsTitle = () => {
+const ProductsTitle = (props) => {
   // const productsTitle = [
   //   { text: "perfect shades" },
   //   { title: "FIND YOUR BEAUTY MATCH" },
@@ -17,10 +17,10 @@ const ProductsTitle = () => {
   //     );
   //   });
   return (
-    <div className="ProductsTitle">
-      <p className="ProductsText TuesdayNight-font-face">perfect shades</p>
-      <h2 className="ProductsTitle">FIND YOUR BEAUTY MATCH</h2>
-      <h5 className="ProductsDescription">at vero eos et accusamus et iusto</h5>
+    <div className="ProductsDiv">
+      <p className="ProductsText TuesdayNight-font-face">{props.Text}</p>
+      <h2 className="ProductsTitle">{props.Title}</h2>
+      <h5 className="ProductsDescription">{props.Description}</h5>
     </div>
   );
 };

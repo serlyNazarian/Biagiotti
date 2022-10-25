@@ -11,6 +11,7 @@
 
 .ProductsTitle {
   color: #000;
+  text-transform: uppercase;
 }
 
 .ProductsDescription {

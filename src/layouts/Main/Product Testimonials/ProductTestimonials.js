@@ -41,15 +41,16 @@ const ProductTestimonials = () => {
     };
     return (
         <div className='wrapper'>
-            <Slider {...settings}>
+            <span className='review TuesdayNight-font-face User-Select-None'>You said about us</span>
+            <Slider className='Grab-Cursor' {...settings}>
                 {Reviews.map((review) => {
                     return (
-                        <div className='Test'>
+                        <div className='Test' key={review.id}>
                             <p className='Testimonial-text TuesdayNight-font-face'>{review.TestimonialText}</p>
                             <h3 className='Testimonial-title'>{review.title}</h3>
-                            <span className='review TuesdayNight-font-face'>{review.span}</span>
                             <p className='Main-review'>{review.Review}</p>
                             <span className='span'>{review.CustomerName}</span>
+                            {/* <span className='review TuesdayNight-font-face'>{review.span}</span> */}
                         </div>
                     )
                 })}

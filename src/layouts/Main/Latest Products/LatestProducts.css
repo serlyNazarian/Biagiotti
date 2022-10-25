@@ -1,0 +1,35 @@
+.Latest-Products {
+  background-image: url(https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/09/m-h-background-3.jpg?id=2652);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Latest-Products-Grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.Latest-Product {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.Latest-Product-Img {
+  width: 70px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.Latest-Products-Flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
