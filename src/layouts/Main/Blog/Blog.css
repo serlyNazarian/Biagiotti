@@ -1,0 +1,77 @@
+.Blog-Wrapper {
+  background-image: url(https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-background-5-1.jpg?id=1873);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  padding-top: 100px;
+}
+
+.Blog-Image {
+  width: 300px;
+  height: 450px;
+}
+
+.Blog-Upper-Part {
+  position: relative;
+}
+
+.Blog-Text-First-Row {
+  display: flex;
+  flex-direction: row;
+  color: #9d9b9b;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.First-Span {
+  margin-right: 20px;
+}
+
+.Blog-Text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.Blog-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.Blog-Name {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.Blog-Description {
+  font-size: 15px;
+  color: #838383;
+  font-weight: 500;
+  text-align: start;
+}
+
+.Blog-Date {
+  position: absolute;
+  background-color: #feeae7;
+  top: 0;
+  left: 25px;
+  width: 60px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}

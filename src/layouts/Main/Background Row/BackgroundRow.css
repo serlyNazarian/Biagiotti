@@ -1,0 +1,54 @@
+.Row-Wrapper {
+  background-image: url(https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/08/m-h-background-4-1.jpg?id=486);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+  height: 50vh;
+  width: 99vw;
+}
+
+.Row-Item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Icon {
+  align-items: center;
+  margin-left: 15px;
+}
+
+.Icon-Background {
+  position: absolute;
+  z-index: -1;
+}
+
+.Row-Text {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Row-Image {
+  height: 100px;
+  width: 200px;
+}
+
+.Row-Title {
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.Row-P {
+  margin: 0 10px 0 10px;
+  color: #838383;
+}

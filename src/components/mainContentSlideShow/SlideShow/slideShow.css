@@ -1,49 +1,39 @@
-.CarouselImg {
-  width: 100vw;
-  height: 50vh;
-  background-size: cover;
-}
-
 .carousel-description {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  position: relative;
-  /* width: 50% !important; */
+  align-items: flex-start;
+  justify-content: center;
+  width: 40vw;
   height: 75vh !important;
+  text-align: start;
+  margin-left: 100px;
+}
+
+.carousel-img {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 20px;
 }
 
 .slider-title {
-  position: absolute;
-  top: 280px;
-  left: 200px;
   font-size: 70px;
   color: white;
   cursor: default;
   user-select: none;
+  text-transform: uppercase;
 }
 
 .slider-text {
-  position: absolute;
-  top: 370px;
-  left: 180px;
   color: white;
   font-style: italic;
   width: 550px;
   cursor: default;
   user-select: none;
-}
-
-.test-img {
-  width: 100vw;
-  height: 74vh;
-  background-size: cover;
+  margin-left: 10px;
 }
 
 .img-logo-test {
-  position: absolute;
-  top: 200px;
-  left: 200px;
   width: 230px !important;
   height: 100px !important;
 }
