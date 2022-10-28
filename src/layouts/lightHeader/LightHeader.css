@@ -5,4 +5,7 @@
   height: 10vh;
   /* justify-content: center; */
   background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
