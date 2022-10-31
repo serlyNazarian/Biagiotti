@@ -3,12 +3,18 @@ import "./TopBtn.css";
 
 const TopBtn = () => {
     const [showTopBtn, setShowTopBtn] = useState(false);
+    const [color, setColor] = useState("transparent");
     useEffect(() => {
         window.addEventListener('scroll', () => {
             if (window.scrollY > 400) {
                 setShowTopBtn(true);
+                setColor("black");
             } else {
                 setShowTopBtn(false);
+            }
+            if (window.scrollY > 7200) {
+                setShowTopBtn(true);
+                setColor("white");
             }
         });
     }, []);
@@ -21,7 +27,7 @@ const TopBtn = () => {
     return (
         <div className='top-btn'>
             {showTopBtn && (
-                <button className='Btn' onClick={goToTop}>Top</button>
+                <button style={{ borderColor: color }} className='Btn' onClick={goToTop}>Top</button>
             )}
         </div>
     );

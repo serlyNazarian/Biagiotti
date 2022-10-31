@@ -12,10 +12,10 @@
   background-color: transparent;
   color: gray;
   text-transform: uppercase;
-  border: 1px solid black;
+  border: 1px solid;
 }
 
 .Btn:hover {
-  border: 2px solid black;
+  border: 2px solid;
   cursor: pointer;
 }

@@ -6,11 +6,11 @@ import "./LightHeader.css";
 
 const LightHeader = () => {
   return (
-    <header className="lightHeader">
+    <div className="lightHeader">
       <HeaderWishlist />
       <HeaderNav />
       <HeaderIcons />
-    </header>
+    </div>
   );
 };
 

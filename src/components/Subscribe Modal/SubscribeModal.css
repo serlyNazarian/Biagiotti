@@ -1,0 +1,59 @@
+.Subscribe-Modal-Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 470px;
+  height: 350px;
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  left: 60px;
+  flex-direction: column;
+}
+
+.Subscribe-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* background-color: red; */
+  width: 400px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.Subscribe-Row > span {
+  font-size: 30px;
+  user-select: none;
+  color: gray;
+}
+
+.WindowClose {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.Subscribe-Input {
+  display: flex;
+  flex-direction: row;
+}
+
+.Subscribe-Input > input {
+  height: 45px;
+  width: 200px;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+.Modal-Title {
+  text-transform: uppercase;
+}
+
+.Popup-Checkbox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 90%;
+  margin-top: 10px;
+  font-size: 14px;
+}

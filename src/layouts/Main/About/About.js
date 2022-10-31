@@ -1,7 +1,7 @@
 import React from 'react';
 import AboutUs from './About Us/AboutUs';
 
-const About = () => {
+const AboutSection = () => {
     return (
         <div className='About-Section'>
             <AboutUs />
@@ -9,4 +9,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AboutSection;
